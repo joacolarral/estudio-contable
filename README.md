@@ -1,3 +1,31 @@
+STACK
+
+REACT - REACT HOOKS 
+
+CSS
+
+styled-components
+
+
+------------------------
+
+TRABAJO DIVIDIDO EN 3 SECCIONES. HEADER - BODY - FOOTER
+
+HEADER contiene La Navbar y el Carousel
+
+BODY tiene 3 subdivisiones: Servicios - Contacto - Nosotros. Cada uno tiene sus subidivisiones.
+
+FOOTER -  No contiene subdivisiones
+
+-----------------------
+
+Cada componente tienen en su mismo directorio un archivo styles.js que contiene todo el css correspondiente exceptuando el carousel que es de una libreria externa.
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
