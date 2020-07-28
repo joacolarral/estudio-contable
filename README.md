@@ -1,6 +1,6 @@
 STACK
 
-REACT - REACT HOOKS 
+React - React hooks
 
 CSS
 
