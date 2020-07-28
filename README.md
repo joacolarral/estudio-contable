@@ -22,7 +22,7 @@ FOOTER -  No contiene subdivisiones
 Cada componente tienen en su mismo directorio un archivo styles.js que contiene todo el css correspondiente exceptuando el carousel que es de una libreria externa.
 
 
-
+-----------------------
 
 
 
