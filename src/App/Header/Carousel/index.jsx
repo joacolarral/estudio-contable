@@ -42,7 +42,7 @@ export default () => {
         showThumbs={false}
         showArrows={false}
         infiniteLoop
-        autoPlay={false}
+        autoPlay
       >
         <Service pic={pic1} service={"IMPUESTOS"} />
         <Service pic={pic2} service={"CONTABILIDAD"} />
