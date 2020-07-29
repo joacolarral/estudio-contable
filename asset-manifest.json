@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/estudio-contable/static/css/main.99314b54.chunk.css",
+    "main.js": "/estudio-contable/static/js/main.a9f3c511.chunk.js",
+    "main.js.map": "/estudio-contable/static/js/main.a9f3c511.chunk.js.map",
+    "runtime-main.js": "/estudio-contable/static/js/runtime-main.c54de381.js",
+    "runtime-main.js.map": "/estudio-contable/static/js/runtime-main.c54de381.js.map",
+    "static/css/2.bca29b35.chunk.css": "/estudio-contable/static/css/2.bca29b35.chunk.css",
+    "static/js/2.1b49ea94.chunk.js": "/estudio-contable/static/js/2.1b49ea94.chunk.js",
+    "static/js/2.1b49ea94.chunk.js.map": "/estudio-contable/static/js/2.1b49ea94.chunk.js.map",
+    "index.html": "/estudio-contable/index.html",
+    "precache-manifest.21c343c5d2555aa40ecb0054b0063227.js": "/estudio-contable/precache-manifest.21c343c5d2555aa40ecb0054b0063227.js",
+    "service-worker.js": "/estudio-contable/service-worker.js",
+    "static/css/2.bca29b35.chunk.css.map": "/estudio-contable/static/css/2.bca29b35.chunk.css.map",
+    "static/css/main.99314b54.chunk.css.map": "/estudio-contable/static/css/main.99314b54.chunk.css.map",
+    "static/js/2.1b49ea94.chunk.js.LICENSE.txt": "/estudio-contable/static/js/2.1b49ea94.chunk.js.LICENSE.txt",
+    "static/media/contactUs.png": "/estudio-contable/static/media/contactUs.9ea537a0.png",
+    "static/media/rsz_contabilidad.jpg": "/estudio-contable/static/media/rsz_contabilidad.598642bc.jpg",
+    "static/media/rsz_impuestos.jpg": "/estudio-contable/static/media/rsz_impuestos.23ad3f3f.jpg",
+    "static/media/rsz_laboral.jpg": "/estudio-contable/static/media/rsz_laboral.f27b9d56.jpg",
+    "static/media/rsz_sociedades.jpg": "/estudio-contable/static/media/rsz_sociedades.89d21e1d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c54de381.js",
+    "static/css/2.bca29b35.chunk.css",
+    "static/js/2.1b49ea94.chunk.js",
+    "static/css/main.99314b54.chunk.css",
+    "static/js/main.a9f3c511.chunk.js"
+  ]
+}
