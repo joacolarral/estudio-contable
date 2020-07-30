@@ -41,4 +41,10 @@ const Icons = styled(FontAwesomeIcon)`
   width: 50px !important;
 `;
 
-export { Container, WrapperLink, ServiceText, Icons, DivIcon };
+const Title = styled.h1`
+  text-align: center;
+  margin-top: 1rem;
+  padding-top: 2rem;
+`;
+
+export { Container, WrapperLink, ServiceText, Icons, DivIcon, Title };

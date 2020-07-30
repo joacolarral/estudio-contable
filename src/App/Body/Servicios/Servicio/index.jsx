@@ -40,7 +40,7 @@ export default () => {
 function ServiceCreate({ servicio, title, row, img }) {
   return (
     <Container id={title.toLowerCase()} row={row}>
-      <Div1 data-aos={"zoom-in"}>
+      <Div1>
         <Title>{title}</Title>
         <Ul>
           {!!servicio.length &&

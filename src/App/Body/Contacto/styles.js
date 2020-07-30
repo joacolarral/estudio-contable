@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import contactUs from "../../../assets/images/contactUs.png";
+// import contactUs from "../../../assets/images/contactUs.png";
 
 const Title = styled.h1`
   text-align: center;
@@ -7,13 +7,14 @@ const Title = styled.h1`
   margin-bottom: 2rem;
 `;
 
+// background-image: url(${contactUs});
+// background-repeat: no-repeat;
+// background-attachment: fixed;
 const Container = styled.div`
-  background-image: url(${contactUs});
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #212226;
 `;
 
 export { Title, Container };

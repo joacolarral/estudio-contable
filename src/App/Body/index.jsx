@@ -6,8 +6,8 @@ import Contacto from "./Contacto";
 export default () => {
   return (
     <>
-      <Servicios />
       <Nosotros />
+      <Servicios />
       <Contacto />
     </>
   );

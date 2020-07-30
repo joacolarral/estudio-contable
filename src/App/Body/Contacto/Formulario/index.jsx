@@ -40,7 +40,7 @@ export default () => {
           <Message required />
         </DivMessage>
         <DivButtons>
-          <Buttons type="submit" />
+          <Buttons type="submit" value="Enviar Consulta" />
         </DivButtons>
       </Form>
     </Container>

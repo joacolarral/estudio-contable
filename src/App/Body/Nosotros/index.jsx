@@ -4,7 +4,7 @@ import { Title, Container, Title2, Content, Wrapper } from "./styles";
 export default () => {
   return (
     <>
-      <Title id="nosotros" data-aos="flip-left">
+      <Title id="nosotros" data-aos="flip-right">
         NOSOTROS
       </Title>
       <Container data-aos="zoom-in-up">

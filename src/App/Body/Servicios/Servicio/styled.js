@@ -5,24 +5,19 @@ const Container = styled.div`
   flex-direction: ${({ row }) => row};
   align-items: flex-start;
 
-  @media (max-width: 425px) {
+  @media (max-width: 915px) {
     flex-direction: column;
     margin-top: 10px;
   }
 `;
 
 const Div1 = styled.div`
-  margin-top: 30px;
-
   flex: 0 0 50%;
   display: flex;
   flex-flow: column;
+  align-self: center;
   align-items: center;
-
-  @media (max-width: 425px) {
-    text-align: center;
-    align-self: center;
-  }
+  width: 100%;
 `;
 
 const Div2 = styled.div`
@@ -44,6 +39,8 @@ const Img = styled.img`
 
 const Ul = styled.ul`
   padding: 0;
+  width: 100%;
+  text-align: center;
 `;
 
 const Items = styled.li`

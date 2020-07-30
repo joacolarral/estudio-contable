@@ -8,18 +8,18 @@ export default () => {
   return (
     <Container data-aos="zoom-out">
       <Div>
-        <Icons icon={faMobileAlt} />
-        <Text>11 23064904</Text>
+        <Icons icon={faMobileAlt} color="#658DA6" />
+        <Text color="#658DA6">11 23064904</Text>
       </Div>
       <Div>
-        <Icons icon={faEnvelope} />
-        <Link href={"mailto:franciscob@estudiofrb.com.ar"}>
+        <Icons icon={faEnvelope} color="#A66B49" />
+        <Link href={"mailto:franciscob@estudiofrb.com.ar"} color="#A66B49">
           franciscob@estudiofrb.com.ar
         </Link>
       </Div>
       <Div>
-        <Icons icon={faWhatsapp} />
-        <Text>11 23064904</Text>
+        <Icons icon={faWhatsapp} color="#038C4C" />
+        <Text color="#038C4C">11 23064904</Text>
       </Div>
     </Container>
   );

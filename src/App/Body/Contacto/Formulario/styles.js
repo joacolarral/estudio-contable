@@ -25,14 +25,22 @@ const DivInputs = styled.div`
     flex: 1 0 auto;
   }
 `;
-
-const Input = styled.input`
-  margin: 5px;
-  padding: 5px;
-`;
-
 const Label = styled.label`
   margin: 5px;
+`;
+
+const Input = styled.input`
+  padding: 5px;
+  margin: 0 5px 5px 5px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #212226;
+
+  :focus {
+    outline: none;
+    border-bottom: 1px solid #038c4c;
+    transition: all 0.5s cubic-bezier(0, 0, 0.2, 1);
+  }
 `;
 
 const DivMessage = styled.div`
@@ -51,6 +59,15 @@ const Message = styled.textarea`
   overflow: hidden;
   resize: none;
   flex: 1 0 auto;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #212226;
+
+  :focus {
+    outline: none;
+    border-bottom: 1px solid #038c4c;
+    transition: all 0.5s cubic-bezier(0, 0, 0.2, 1);
+  }
 `;
 
 const DivWrapperInputs = styled.div`
@@ -60,12 +77,24 @@ const DivWrapperInputs = styled.div`
 
 const DivButtons = styled.div`
   margin-bottom: 25px;
+  display: flex;
 `;
 
 const Buttons = styled.input`
   margin: 5px;
   padding: 5px;
-  width: 110px;
+  flex: 1;
+  border: 0px solid #000000;
+  border-radius: 10px 10px 10px 10px;
+  color: white;
+  background-color: #658da6;
+  :hover {
+    background-color: #038c4c;
+    transition: all 0.3s ease;
+  }
+  :active {
+    outline: none;
+  }
 `;
 
 export {

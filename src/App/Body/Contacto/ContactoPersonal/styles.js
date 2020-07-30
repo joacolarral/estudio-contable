@@ -26,18 +26,24 @@ const Text = styled.h3`
   margin: 0;
   display: flex;
   align-items: center;
+
+  :hover {
+    color: ${({ color }) => color};
+    transition: all 0.5s cubic-bezier(0, 0, 0.2, 1);
+  }
 `;
 
 const Link = styled.a`
   text-decoration: none;
-  color: black;
+  color: #212226;
   display: flex;
   align-items: center;
   font-size: 18px;
   font-weight: 700;
   cursor: pointer;
-  :active {
-    color: blue;
+  :hover {
+    color: ${({ color }) => color};
+    transition: all 0.5s cubic-bezier(0, 0, 0.2, 1);
   }
 `;
 

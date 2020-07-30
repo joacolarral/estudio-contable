@@ -26,10 +26,11 @@ const Navbar = styled.nav`
   display: flex;
   height: 100px;
   position: fixed;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.75);
   top: 0;
   z-index: 2;
   width: 100%;
-  background-color: white;
+  background-color: #658da6;
 
   &:after {
     content: "";
@@ -47,6 +48,7 @@ const DivLogo = styled.div`
   justify-content: center;
   align-items: center;
   z-index: 2;
+  color: #eff7f3;
 
   @media (max-width: 425px) {
     font-size: 14px;
@@ -57,6 +59,7 @@ const DivLogo = styled.div`
 const Logo = styled.img`
   height: 80%;
   width: auto;
+  margin-right: 5px;
 
   @media (max-width: 425px) {
     height: 60%;
@@ -81,9 +84,9 @@ const Ul = styled.ul`
     top: 100.01px;
     margin: 0;
     border: 0px solid #000000;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 0px 10px 0px;
     box-shadow: 7px 6px 9px 0px rgba(0, 0, 0, 0.75);
-    background-color: white;
+    background-color: #658da6;
 
     animation: ${({ open }) => (open ? slideIn : slideOut)} 0.5s
       cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -127,8 +130,16 @@ const LinkItem = styled(Link)`
   display: flex;
   justify-content: center;
   align-items: center;
-  color: black;
+  color: #eff7f3;
   text-decoration: none;
+
+  :active {
+    background-color: transparent;
+    color: #038c4c;
+  }
+  :focus {
+    outline: none;
+  }
 `;
 
 const BackgroundBlack = styled.div`

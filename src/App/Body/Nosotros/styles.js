@@ -43,7 +43,8 @@ const contractText = keyframes`
 
 const Title = styled.h1`
   text-align: center;
-  margin-top: 6rem;
+  margin-top: 2rem;
+  padding-top: 2rem;
   margin-bottom: 2rem;
 `;
 

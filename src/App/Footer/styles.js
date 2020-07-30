@@ -5,9 +5,7 @@ const Footer = styled.footer`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #4b4b4b;
-  border: 0px solid #000000;
-  border-radius: 0px 0px 10px 10px;
+  background-color: #212226;
 `;
 
 const FooterText = styled.h6`

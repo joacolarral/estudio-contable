@@ -1,5 +1,12 @@
 import React from "react";
-import { Container, WrapperLink, ServiceText, Icons, DivIcon } from "./styled";
+import {
+  Container,
+  WrapperLink,
+  ServiceText,
+  Icons,
+  DivIcon,
+  Title,
+} from "./styled";
 import {
   faCalculator,
   faChartBar,
@@ -9,12 +16,17 @@ import {
 
 export default () => {
   return (
-    <Container id="servicios" data-aos="zoom-in">
-      <Service icon={faCalculator} service={"IMPUESTOS"} />
-      <Service icon={faChartBar} service={"CONTABILIDAD"} />
-      <Service icon={faFax} service={"LABORAL"} />
-      <Service icon={faUsers} service={"SOCIEDADES"} />
-    </Container>
+    <>
+      <Title id="servicios" data-aos="flip-left">
+        SERVICIOS
+      </Title>
+      <Container data-aos="zoom-in">
+        <Service icon={faCalculator} service={"IMPUESTOS"} />
+        <Service icon={faChartBar} service={"CONTABILIDAD"} />
+        <Service icon={faFax} service={"LABORAL"} />
+        <Service icon={faUsers} service={"SOCIEDADES"} />
+      </Container>
+    </>
   );
 };
 
