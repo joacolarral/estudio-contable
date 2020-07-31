@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/estudio-contable/precache-manifest.4202066f4edc09621f6e1cb5d0abbcd7.js"
+  "/estudio-contable/precache-manifest.bcef28871ac319f5384e5e6a4ee6c5f1.js"
 );
 
 self.addEventListener('message', (event) => {
