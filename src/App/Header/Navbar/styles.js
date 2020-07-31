@@ -57,14 +57,16 @@ const DivLogo = styled.div`
 `;
 
 const Logo = styled.img`
-  height: 80%;
-  width: auto;
+  max-height: 100%;
   margin-right: 5px;
+`;
+// @media (max-width: 425px) {
+//   height: 60%;
+//   width: 30%;
+// }
 
-  @media (max-width: 425px) {
-    height: 60%;
-    width: 30%;
-  }
+const LogoText = styled.p`
+  margin: 0;
 `;
 
 const Ul = styled.ul`
@@ -81,7 +83,7 @@ const Ul = styled.ul`
     justify-content: space-evenly;
     height: 25rem;
     width: 16rem;
-    top: 100.01px;
+    top: 100px;
     margin: 0;
     border: 0px solid #000000;
     border-radius: 0px 0px 10px 0px;
@@ -96,9 +98,13 @@ const Ul = styled.ul`
 const Items = styled.li`
   list-style-type: none;
   flex: 0 0 25%;
-  font-size: 14px;
   height: 100%;
+  font-size: 14px;
   text-align: center;
+
+  @media (max-width: 700px) {
+    height: auto;
+  }
 `;
 
 const DivBars = styled.div`
@@ -161,6 +167,7 @@ export {
   Navbar,
   DivLogo,
   Logo,
+  LogoText,
   Ul,
   Items,
   LinkItem,

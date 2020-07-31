@@ -4,6 +4,7 @@ import {
   Navbar,
   DivLogo,
   Logo,
+  LogoText,
   Ul,
   Items,
   LinkItem,
@@ -13,7 +14,7 @@ import {
 } from "./styles";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-export default () => {
+export default ({ history }) => {
   const [open, setOpen] = useState(false);
   const [visible, setVisible] = useState(false);
 
@@ -25,9 +26,9 @@ export default () => {
   return (
     <>
       <Navbar data-aos="fade-down">
-        <DivLogo>
+        <DivLogo onClick={(e) => history.go()}>
           <Logo src={logo} />
-          Estudio Contable FRB
+          <LogoText>Estudio Contable FRB</LogoText>
         </DivLogo>
         <Ul open={open} visible={visible}>
           <NavItem service={"Nosotros"} />

@@ -36,7 +36,7 @@ function Service({ pic, service }) {
 
 export default () => {
   return (
-    <div data-aos={"zoom-in"}>
+    <div id="home" data-aos={"zoom-in"}>
       <Carousel
         showStatus={false}
         showThumbs={false}

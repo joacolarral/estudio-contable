@@ -5,7 +5,7 @@ import Footer from "./Footer";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-function App() {
+function App(props) {
   useEffect(() => {
     Aos.init({
       duration: 2000,
@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <Header />
+      <Header history={props.history} />
       <Body />
       <Footer />
     </>
