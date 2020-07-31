@@ -26,7 +26,7 @@ export default ({ history }) => {
   return (
     <>
       <Navbar data-aos="fade-down">
-        <DivLogo onClick={(e) => history.go()}>
+        <DivLogo>
           <Logo src={logo} />
           <LogoText>Estudio Contable FRB</LogoText>
         </DivLogo>
