@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/estudio-contable/static/css/main.e498ac1c.chunk.css",
-    "main.js": "/estudio-contable/static/js/main.861c3c22.chunk.js",
-    "main.js.map": "/estudio-contable/static/js/main.861c3c22.chunk.js.map",
+    "main.js": "/estudio-contable/static/js/main.c0d8b075.chunk.js",
+    "main.js.map": "/estudio-contable/static/js/main.c0d8b075.chunk.js.map",
     "runtime-main.js": "/estudio-contable/static/js/runtime-main.c54de381.js",
     "runtime-main.js.map": "/estudio-contable/static/js/runtime-main.c54de381.js.map",
     "static/css/2.bca29b35.chunk.css": "/estudio-contable/static/css/2.bca29b35.chunk.css",
     "static/js/2.7d7933cf.chunk.js": "/estudio-contable/static/js/2.7d7933cf.chunk.js",
     "static/js/2.7d7933cf.chunk.js.map": "/estudio-contable/static/js/2.7d7933cf.chunk.js.map",
     "index.html": "/estudio-contable/index.html",
-    "precache-manifest.bcef28871ac319f5384e5e6a4ee6c5f1.js": "/estudio-contable/precache-manifest.bcef28871ac319f5384e5e6a4ee6c5f1.js",
+    "precache-manifest.36c1b87074be4dbac6ce05ddea4dc4ca.js": "/estudio-contable/precache-manifest.36c1b87074be4dbac6ce05ddea4dc4ca.js",
     "service-worker.js": "/estudio-contable/service-worker.js",
     "static/css/2.bca29b35.chunk.css.map": "/estudio-contable/static/css/2.bca29b35.chunk.css.map",
     "static/css/main.e498ac1c.chunk.css.map": "/estudio-contable/static/css/main.e498ac1c.chunk.css.map",
@@ -24,6 +24,6 @@
     "static/css/2.bca29b35.chunk.css",
     "static/js/2.7d7933cf.chunk.js",
     "static/css/main.e498ac1c.chunk.css",
-    "static/js/main.861c3c22.chunk.js"
+    "static/js/main.c0d8b075.chunk.js"
   ]
 }

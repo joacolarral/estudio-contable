@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "385dca5d0a7e4f40ccf18429c35ff58c",
+    "revision": "b5a04dc3c3df22717f41a3a79bdeed1d",
     "url": "/estudio-contable/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/estudio-contable/static/css/2.bca29b35.chunk.css"
   },
   {
-    "revision": "fd1efd13f108e13f7b96",
+    "revision": "e0efd653e19cb2e27def",
     "url": "/estudio-contable/static/css/main.e498ac1c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/estudio-contable/static/js/2.7d7933cf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fd1efd13f108e13f7b96",
-    "url": "/estudio-contable/static/js/main.861c3c22.chunk.js"
+    "revision": "e0efd653e19cb2e27def",
+    "url": "/estudio-contable/static/js/main.c0d8b075.chunk.js"
   },
   {
     "revision": "4323a248e28ea6ec4f82",
