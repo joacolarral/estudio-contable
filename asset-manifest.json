@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/estudio-contable/static/css/main.e498ac1c.chunk.css",
-    "main.js": "/estudio-contable/static/js/main.c0d8b075.chunk.js",
-    "main.js.map": "/estudio-contable/static/js/main.c0d8b075.chunk.js.map",
+    "main.js": "/estudio-contable/static/js/main.6720ddf1.chunk.js",
+    "main.js.map": "/estudio-contable/static/js/main.6720ddf1.chunk.js.map",
     "runtime-main.js": "/estudio-contable/static/js/runtime-main.c54de381.js",
     "runtime-main.js.map": "/estudio-contable/static/js/runtime-main.c54de381.js.map",
     "static/css/2.bca29b35.chunk.css": "/estudio-contable/static/css/2.bca29b35.chunk.css",
-    "static/js/2.7d7933cf.chunk.js": "/estudio-contable/static/js/2.7d7933cf.chunk.js",
-    "static/js/2.7d7933cf.chunk.js.map": "/estudio-contable/static/js/2.7d7933cf.chunk.js.map",
+    "static/js/2.157ad43d.chunk.js": "/estudio-contable/static/js/2.157ad43d.chunk.js",
+    "static/js/2.157ad43d.chunk.js.map": "/estudio-contable/static/js/2.157ad43d.chunk.js.map",
     "index.html": "/estudio-contable/index.html",
-    "precache-manifest.36c1b87074be4dbac6ce05ddea4dc4ca.js": "/estudio-contable/precache-manifest.36c1b87074be4dbac6ce05ddea4dc4ca.js",
+    "precache-manifest.a8dd22224d070becc49cfd39d4ac3fc5.js": "/estudio-contable/precache-manifest.a8dd22224d070becc49cfd39d4ac3fc5.js",
     "service-worker.js": "/estudio-contable/service-worker.js",
     "static/css/2.bca29b35.chunk.css.map": "/estudio-contable/static/css/2.bca29b35.chunk.css.map",
     "static/css/main.e498ac1c.chunk.css.map": "/estudio-contable/static/css/main.e498ac1c.chunk.css.map",
-    "static/js/2.7d7933cf.chunk.js.LICENSE.txt": "/estudio-contable/static/js/2.7d7933cf.chunk.js.LICENSE.txt",
+    "static/js/2.157ad43d.chunk.js.LICENSE.txt": "/estudio-contable/static/js/2.157ad43d.chunk.js.LICENSE.txt",
     "static/media/rsz_contabilidad.jpg": "/estudio-contable/static/media/rsz_contabilidad.598642bc.jpg",
     "static/media/rsz_impuestos.jpg": "/estudio-contable/static/media/rsz_impuestos.23ad3f3f.jpg",
     "static/media/rsz_laboral.jpg": "/estudio-contable/static/media/rsz_laboral.f27b9d56.jpg",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.c54de381.js",
     "static/css/2.bca29b35.chunk.css",
-    "static/js/2.7d7933cf.chunk.js",
+    "static/js/2.157ad43d.chunk.js",
     "static/css/main.e498ac1c.chunk.css",
-    "static/js/main.c0d8b075.chunk.js"
+    "static/js/main.6720ddf1.chunk.js"
   ]
 }
