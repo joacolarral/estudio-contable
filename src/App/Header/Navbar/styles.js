@@ -42,13 +42,15 @@ const Navbar = styled.nav`
   }
 `;
 
-const DivLogo = styled.div`
+const DivLogo = styled(Link)`
   display: flex;
   flex: 1 0 auto;
   justify-content: center;
   align-items: center;
   z-index: 2;
   color: #eff7f3;
+  cursor: pointer;
+  text-decoration: none;
 
   @media (max-width: 425px) {
     font-size: 14px;

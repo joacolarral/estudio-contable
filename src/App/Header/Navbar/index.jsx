@@ -14,7 +14,7 @@ import {
 } from "./styles";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-export default ({ history }) => {
+export default () => {
   const [open, setOpen] = useState(false);
   const [visible, setVisible] = useState(false);
 
@@ -23,17 +23,22 @@ export default ({ history }) => {
     setVisible(true);
   }
 
+  function linkToHome() {
+    let y = document.getElementById("root").offsetTop;
+    window.scrollTo(0, y - 100);
+  }
+
   return (
     <>
       <Navbar data-aos="fade-down">
-        <DivLogo>
+        <DivLogo onClick={linkToHome}>
           <Logo src={logo} />
           <LogoText>Estudio Contable FRB</LogoText>
         </DivLogo>
         <Ul open={open} visible={visible}>
-          <NavItem service={"Nosotros"} />
-          <NavItem service={"Servicios"} />
-          <NavItem service={"Contacto"} />
+          <NavItem open={open} setOpen={setOpen} service={"Nosotros"} />
+          <NavItem open={open} setOpen={setOpen} service={"Servicios"} />
+          <NavItem open={open} setOpen={setOpen} service={"Contacto"} />
         </Ul>
         <DivBars>
           <Bars onClick={handleClick} icon={faBars} size={"2x"} />
@@ -44,11 +49,11 @@ export default ({ history }) => {
   );
 };
 
-function NavItem({ service }) {
+function NavItem({ service, setOpen, open }) {
   function handleLink() {
-    console.log(document.getElementById(service.toLowerCase()));
     let y = document.getElementById(service.toLowerCase()).offsetTop;
     window.scrollTo(0, y - 100);
+    setOpen(!open);
   }
 
   return (
