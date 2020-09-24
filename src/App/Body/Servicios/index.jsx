@@ -5,8 +5,13 @@ import Servicio from "./Servicio";
 export default () => {
   return (
     <>
-      <MapaServicios />
-      <Servicio />
+      <div
+        id="servicios"
+        style={{ backgroundColor: "#efefef", paddingTop: "3em" }}
+      >
+        <MapaServicios />
+        <Servicio />
+      </div>
     </>
   );
 };

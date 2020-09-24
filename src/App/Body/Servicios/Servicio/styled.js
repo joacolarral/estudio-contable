@@ -4,6 +4,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: ${({ row }) => row};
   align-items: flex-start;
+  background-color: ${({ row }) => row === "row-reverse" && "white"};
 
   @media (max-width: 915px) {
     flex-direction: column;

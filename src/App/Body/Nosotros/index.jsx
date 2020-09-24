@@ -3,9 +3,12 @@ import { Title, Container, Title2, Content, Wrapper } from "./styles";
 
 export default () => {
   return (
-    <>
-      <Title id="nosotros" data-aos="flip-right">
-        NOSOTROS
+    <div
+      id="nosotros"
+      style={{ padding: "3em 0", textAlign: "-webkit-center" }}
+    >
+      <Title data-aos="flip-right">
+        <span style={{ padding: "0 10px", background: "#ffff" }}>NOSOTROS</span>
       </Title>
       <Container data-aos="zoom-in-up">
         <Wrapper>
@@ -26,6 +29,6 @@ export default () => {
           </Content>
         </Wrapper>
       </Container>
-    </>
+    </div>
   );
 };

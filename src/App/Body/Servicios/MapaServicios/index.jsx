@@ -12,19 +12,24 @@ import {
   faChartBar,
   faFax,
   faUsers,
+  faBuilding,
 } from "@fortawesome/free-solid-svg-icons";
 
 export default () => {
   return (
     <>
-      <Title id="servicios" data-aos="flip-left">
-        SERVICIOS
+      <Title data-aos="flip-left">
+        <span style={{ padding: "0 10px", background: "rgb(239, 239, 239)" }}>
+          {" "}
+          SERVICIOS
+        </span>
       </Title>
       <Container data-aos="zoom-in">
         <Service icon={faCalculator} service={"IMPUESTOS"} />
         <Service icon={faChartBar} service={"CONTABILIDAD"} />
         <Service icon={faFax} service={"LABORAL"} />
         <Service icon={faUsers} service={"SOCIEDADES"} />
+        <Service icon={faBuilding} service={"EMPRENDEDORES"} />
       </Container>
     </>
   );

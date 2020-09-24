@@ -38,6 +38,7 @@ export default () => {
         <Ul open={open} visible={visible}>
           <NavItem open={open} setOpen={setOpen} service={"Nosotros"} />
           <NavItem open={open} setOpen={setOpen} service={"Servicios"} />
+          <NavItem open={open} setOpen={setOpen} service={"Emprendedores"} />
           <NavItem open={open} setOpen={setOpen} service={"Contacto"} />
         </Ul>
         <DivBars>

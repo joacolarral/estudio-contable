@@ -8,9 +8,11 @@ const Container = styled.div`
   justify-content: center;
   flex-flow: row wrap;
   height: 300px;
-
+  margin: 3em 0;
   @media (max-width: 425px) {
     margin-top: 20px;
+    margin: 3em 0;
+    margin-bottom: 11em;
   }
 `;
 
@@ -42,8 +44,11 @@ const Icons = styled(FontAwesomeIcon)`
 `;
 
 const Title = styled.h1`
+  width: 90%;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
   text-align: center;
-  margin-top: 1rem;
+  margin: 1rem auto;
   padding-top: 2rem;
 `;
 

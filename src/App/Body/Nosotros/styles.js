@@ -42,15 +42,16 @@ const contractText = keyframes`
 `;
 
 const Title = styled.h1`
+  width: 90%;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
   text-align: center;
-  margin-top: 2rem;
-  padding-top: 2rem;
-  margin-bottom: 2rem;
+  margin: 2em 0;
 `;
 
 const Container = styled.div`
   display: flex;
-
+  margin: 2em 0;
   @media (max-width: 425px) {
     flex-direction: column;
   }
