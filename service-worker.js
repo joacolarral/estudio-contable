@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/estudio-contable/precache-manifest.7eaeb3cf0ca3b09ebc9a130b65e0f4ed.js"
+  "/estudio-contable/precache-manifest.599deb4640b4f77069d6ae7550b253ea.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -35,5 +35,5 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/estudio-contable/index.html"), {
   
-  blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
+  blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
 });
