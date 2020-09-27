@@ -39,6 +39,7 @@ export default () => {
       if (xhr.status === 200) {
         form.reset();
         setModal({ ...modal, show: true, status: true });
+        window.gtag_report_conversion();
       } else {
         setModal({ ...modal, show: true, status: false });
       }
