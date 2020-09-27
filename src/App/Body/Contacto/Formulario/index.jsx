@@ -40,6 +40,7 @@ export default () => {
         form.reset();
         setModal({ ...modal, show: true, status: true });
         window.gtag_report_conversion();
+        console.log("se envio");
       } else {
         setModal({ ...modal, show: true, status: false });
       }
