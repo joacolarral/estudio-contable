@@ -15,10 +15,10 @@ export default () => {
         data-aos-duration="1500"
       >
         Si sos emprendedor, tenes un comercio o querés invertir en un proyecto,
-        no te preocupes ! Podemos ayudarte a que puedas dar el primer paso y te
+         no te preocupes ! Podemos ayudarte a que puedas dar el primer paso y te
         puedas embarcar sin miedo. Sabemos lo importante que es el apoyo y dar
         el primer paso por eso queremos estar ahí para acompañarte y asesorarte
-        contablemente sobre la administración financiera. Vamos a recomendarte
+        convenientemente sobre la administración financiera. Vamos a recomendarte
         siempre las mejores opciones para cuidar tu rentabilidad y estar siempre
         en regla.
       </Content>{" "}
@@ -27,7 +27,7 @@ export default () => {
         data-aos-easing="linear"
         data-aos-duration="1500"
       >
-        !Apostemos juntos!
+        ¡ Apostemos juntos !
       </Content>
     </Container>
   );

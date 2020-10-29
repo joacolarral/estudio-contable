@@ -40,14 +40,14 @@ export default () => {
 function ServiceCreate({ servicio, title, row, img }) {
   return (
     <Container id={title.toLowerCase()} row={row}>
-      <Div1>
+      <Div1 data-aos={"zoom-in"}>
         <Title>{title}</Title>
         <Ul>
           {!!servicio.length &&
             servicio.map((resource, i) => <Items key={i}>{resource}</Items>)}
         </Ul>
       </Div1>
-      <Div2 data-aos={"zoom-in"}>
+      <Div2>
         <Img src={img} />
       </Div2>
     </Container>
